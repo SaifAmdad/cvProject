@@ -1,2 +1,2 @@
 # My-CV
-https://github.com/SaifAmdad/My-CV/settings
+https://saifamdad.github.io/cvProject/
