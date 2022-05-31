@@ -16,7 +16,7 @@ body{
 
 
 #pic{
-    height: 120px;
+    height: 110px;
     width: 100px;
     border: 1px solid gray;
     border-radius: 50%;
@@ -68,7 +68,7 @@ header{
 }
 
 .right{
-    max-width: 70%;
+    max-width: 68%;
     float: left;
 }
 .comon-hr{
@@ -137,4 +137,19 @@ ul li{
 	text-decoration: underline;
 	color: orange;
 	
+}
+
+@media (max-width : 600px) {
+    .left{
+        float: none;
+        width: 80%;
+        text-decoration: underline;
+        text-align: left;
+    }
+
+    .right{
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
